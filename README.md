@@ -1,4 +1,4 @@
-# elasticsearch-operator
+# elasticsearch-operato
 
 Elasticsearch operator to run Elasticsearch cluster on top of Openshift and Kubernetes.
 Operator uses [Operator Framework SDK](https://github.com/operator-framework/operator-sdk).
