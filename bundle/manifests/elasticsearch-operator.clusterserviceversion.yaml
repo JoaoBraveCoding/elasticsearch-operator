@@ -101,7 +101,7 @@ metadata:
     categories: OpenShift Optional, Logging & Tracing
     certified: "false"
     containerImage: quay.io/openshift-logging/elasticsearch-operator:latest
-    createdAt: "2025-09-18T15:58:46Z"
+    createdAt: "2025-09-18T16:34:30Z"
     description: |
       The Elasticsearch Operator for OCP provides a means for configuring and managing an Elasticsearch cluster for tracing and cluster logging.
       ## Prerequisites and Requirements
@@ -291,10 +291,11 @@ spec:
   description: |
     ### IN OCP 4.16 AND FORWARD
 
-    ELASTICSEARCH IS ONLY SUPPORTED FOR **SERVICEMESH, TRACING, AND KIALI**, AND
-    THIS OPERATOR **WILL BE FULLY DEPRECATED ON NOVEMBER 2025**.  ELASTICSEARCH
-    IS **NO LONGER SUPPORTED FOR LOG STORAGE**. **KIBANA IS NO LONGER
-    SUPPORTED** IN OCP 4.16 AND FORWARD.
+    IN OCP 4.16 AND FORWARD ELASTICSEARCH and KIBANA ARE **NO LONGER SUPPORTED
+    FOR LOG STORAGE** AND ELASTICSEARCH IS ONLY SUPPORTED FOR **SERVICEMESH,
+    TRACING, AND KIALI**
+
+    THIS OPERATOR **WILL BE END OF LIFE ON NOVEMBER 2025**
 
     ### About
 
